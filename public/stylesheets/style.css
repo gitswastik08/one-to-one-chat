@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.main .leftdiv {
+  width: 30%;
+  height: 100%;
+  background-color: #191919;
+}
+.main .leftdiv .left-top {
+  height: 20%;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2705882353);
+}
+.main .leftdiv .left-bottom {
+  height: 80%;
+  width: 100%;
+}
+.main .rightdiv {
+  width: 70%;
+  height: 100%;
+  background-color: #111111;
+}
+.main .rightdiv .r-top {
+  height: 15%;
+  width: 100%;
+  background-color: #181818;
+}
+.main .rightdiv .r-bottom {
+  height: 85%;
+  width: 100%;
+  background-color: #111111;
+}
+.main .rightdiv .r-bottom .msg-section {
+  width: 100%;
+  height: calc(100% - 12vh);
+}
+.main .rightdiv .r-bottom .input-section {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.main .rightdiv .r-bottom .input-section input {
+  border: none;
+  padding: 1.5vw 2vw;
+  border-radius: 2vw;
+  width: 85%;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 1.5vw;
+  outline: none;
+}
+.main .rightdiv .r-bottom .input-section i {
+  font-size: 2vw;
+  padding: 1vw;
+  color: #fff;
+  background-color: #1E1E1E;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */

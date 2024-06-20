@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #fff;
+        }
+
+        #regmain {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2vw;
+        }
+
+        #regmain form {
+            padding: 2vw;
+            background-color: rgb(62, 55, 55);
+            flex-direction: column;
+            gap: 2vw;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        #regmain form label {
+            font-size: 1.3vw;
+            color: #fff;
+            font-weight: 800;
+            font-family: cursive;
+        }
+
+        #regmain form input {
+            color: #fff;
+            background-color: #000;
+            width: 100%;
+            padding: 1vw 2vw;
+        }
+
+        #submit {
+            background-color: blueviolet;
+            width: 100%;
+            padding: 0.4vw 2vw;
+            color: #fff;
+            font-weight: 800;
+            font-family: cursive;
+            border-radius: 2vw;
+            font-size: 1.5vw;
+        }
+        h3{
+            color: #fff;
+            font-weight: 100;
+        }
+        h3 a{
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="regmain">
+        <h1>Login Here</h1>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="enter username">
+            <input type="password" name="password" placeholder="enter password">
+            
+            <button id="submit">login</button>
+        </form>
+        <h3>Don't have account? <a href="/">Register here</a></h3>
+    </div>
+
+</body>
+
+</html>
